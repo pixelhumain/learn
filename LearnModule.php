@@ -11,6 +11,18 @@ class LearnModule extends CWebModule {
 
 	private $_assetsUrl;
 
+	private $_version = "v0.1.0";
+	private $_versionDate = "07/01/2018";
+	private $_keywords = "learn, module,opensource,CO,communecter";
+	private $_description = "Learn how to use module for CO";
+	private $_pageTitle = "Learn modules & CO Systems";
+
+	public function getVersion(){return $this->_version;}
+	public function getVersionDate(){return $this->_versionDate;}
+	public function getKeywords(){return $this->_keywords;}
+	public function getDescription(){return $this->_description;}
+	public function getPageTitle(){return $this->_pageTitle;}
+
 	public function getAssetsUrl()
 	{
 		if ($this->_assetsUrl === null)
