@@ -29,6 +29,7 @@ contains all you need to learn how to build modules
     + Action
     + view
     + afficher un alert js
+- faire un premiere page faq accessible ici : 127.0.0.1/ph/learn/default/faq 
 - make a query to DB , get all people born before 90'
 - copier l'exemple de graph depuisle module graph 
 - dans le module graph créer un nouveau controlleur LEARN et crer un nouveau graph
