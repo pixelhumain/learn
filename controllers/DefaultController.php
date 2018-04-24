@@ -18,7 +18,6 @@ class DefaultController extends CommunecterController {
 
 	public function actionIndex() 
 	{
-    $controller=$this->getController();
   	if(Yii::app()->request->isAjaxRequest)
       echo $this->renderPartial("index");
     else
