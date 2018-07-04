@@ -1,2 +1,9 @@
 <h1>Ma todo liste</h1>
-<?php var_dump($list) ?>
+
+<ul>
+<?php 
+foreach ($list as $key => $value) {
+	echo "<li>".$value."</li>";
+}
+ ?>
+ </ul>
