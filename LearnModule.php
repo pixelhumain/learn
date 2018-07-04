@@ -31,6 +31,11 @@ class LearnModule extends CWebModule {
 	    return $this->_assetsUrl;
 	}
 
+	public function getParentAssetsUrl()
+	{
+		return ( @Yii::app()->params["module"]["parent"] ) ?  Yii::app()->getModule( Yii::app()->params["module"]["parent"] )->getAssetsUrl()  : $this->module->assetsUrl;
+	}
+
 	public function beforeControllerAction($controller, $action)
 	{
 		if (parent::beforeControllerAction($controller, $action))
