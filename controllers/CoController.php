@@ -19,7 +19,8 @@ class CoController extends CommunecterController {
 	{
 	    return array(
 	        'sample'   => 'citizenToolKit.controllers.co.SampleAction',
-	        'sample2'  => 'learn.controllers.Sample2Action'
+	        'sample2'  => 'learn.controllers.Sample2Action',
+	        'todo'  => 'learn.controllers.actions.TodoAction',
 	    );
 	}
 }
