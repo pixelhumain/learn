@@ -1,4 +1,4 @@
-# learn module 
+# learn module TEST
 contains all you need to learn how to build modules
 
 ## How To create a Module
@@ -17,6 +17,7 @@ contains all you need to learn how to build modules
 - if in CO, there is interaction with a model it must be loaded in CO2Module.php
     + $this->setImport(array(
             'xxxxx.models.*',
+-xxxxx in pixelhumain/ph/protected/config/moduleconfig.php
 - choose an icon here : https://thenounproject.com/ right click save > overload assets/images/logo.png
 
 ## Connecting to CO 
